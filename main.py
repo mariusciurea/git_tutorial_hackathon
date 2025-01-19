@@ -11,6 +11,10 @@ def get_numbers_from_sentence(sentence: str) -> list[float]:
     return nb
 
 
+def get_person_details(name, age):
+    return f"{name} is {age} years old"
+
+
 if __name__ == "__main__":
     my_sentence = "I am 33 years old!"
     numerical_values = get_numbers_from_sentence(my_sentence)
